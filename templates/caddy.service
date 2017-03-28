@@ -10,8 +10,6 @@ Wants=network-online.target
 
 [Service]
 Restart=on-failure
-StartLimitInterval=86400
-StartLimitBurst=5
 
 ; User and group the process will run as.
 User={{caddy_user}}
